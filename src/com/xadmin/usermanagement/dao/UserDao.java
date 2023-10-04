@@ -11,6 +11,7 @@ import java.util.List;
 import com.xadmin.usermanagement.bean.User;
 
 public class UserDao {
+	//Database Connection
 	private String url = "jdbc:mysql://localhost:3306/userdb";
 	private String uname = "root";
 	private String password = "rabin12";
